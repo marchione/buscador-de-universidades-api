@@ -1,0 +1,33 @@
+{
+  "name": "buscador-de-universidades-api",
+  "version": "1.0.0",
+  "description": "uma API para armazenar e consultar localização de universidades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchione/buscador-de-universidades-api.git"
+  },
+  "keywords": [
+    "universidades-api"
+  ],
+  "author": "Felipe Marchione",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-load": "^1.1.16",
+    "express-validator": "^4.3.0",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "bugs": {
+    "url": "https://github.com/marchione/buscador-de-universidades-api/issues"
+  },
+  "homepage": "https://github.com/marchione/buscador-de-universidades-api#readme"
+}
